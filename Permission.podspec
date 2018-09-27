@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "Dschee-Permission"
+  s.name         = "Permission"
   s.module_name  = "Permission"
   s.version      = "2.1.2"
   s.license      = { :type => "MIT" }
