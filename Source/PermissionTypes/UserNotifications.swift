@@ -45,6 +45,8 @@ internal extension Permission {
                 status = .denied
             case .notDetermined:
                 status = .notDetermined
+            @unknown default:
+                status = .notDetermined
             }
             semaphore.signal()
         }

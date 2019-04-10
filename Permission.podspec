@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "Permission"
   s.module_name  = "Permission"
-  s.version      = "2.1.2"
+  s.version      = "2.2.0"
   s.license      = { :type => "MIT" }
   s.homepage     = "https://github.com/zubco/Permission"
   s.author       = { "Damien" => "damien@delba.io" }
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
 
   s.default_subspec = 'Core'
 
